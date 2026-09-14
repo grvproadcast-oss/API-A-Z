@@ -187,7 +187,7 @@ def process_token(uid, password):
                 return {
                     "region": response_dict.get("region", "N/A"),
                     "status": response_dict.get("status", "N/A"),
-                    "team": "STAR_GMRR",
+                    "team": "Gaurav",
                     "token": response_dict.get("token", "N/A"),
                     "token_access": game_data.access_token,
                     "uid": uid,
@@ -303,7 +303,7 @@ def process_access_token(access_token, uid=None, platform_type=4):
                     "success": True,
                     "region": response_dict.get("region", "N/A"),
                     "status": response_dict.get("status", "N/A"),
-                    "team": "𝗦𝗧𝗔𝗥",
+                    "team": "Gaurav",
                     "token": response_dict.get("token", "N/A"),
                     "uid": uid,
                     "open_id": open_id,
